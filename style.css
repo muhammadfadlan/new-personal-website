@@ -67,7 +67,6 @@ img {
     padding: 0 20px;
 }
 
-/* --- BUTTONS --- */
 /* --- BUTTONS (UPDATED FOR CONSISTENCY) --- */
 .btn {
     /* Base Style sesuai permintaan */
@@ -112,7 +111,7 @@ img {
     transform: translateY(-1px);
 }
 
-/* Outline Button (Opsional, jika ingin style transparan) */
+/* Outline Button (Opsional, digunakan di halaman Home) */
 .btn-outline {
     background-color: transparent;
     color: var(--primary-navy);
@@ -135,6 +134,12 @@ img {
     
     .btn:last-child {
         margin-bottom: 0;
+    }
+    
+    /* Khusus untuk container project actions di mobile */
+    .project-actions {
+        flex-direction: column;
+        gap: 10px;
     }
 }
 
@@ -559,8 +564,8 @@ header {
     padding-top: 30px;
     border-top: 1px solid var(--border-color);
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    flex-direction: column; /* Default mobile/column logic if needed, but flex handles it */
+    gap: 15px;
 }
 
 /* --- CONTACT & FOOTER --- */
