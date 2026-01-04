@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Menghubungkan ke CSS yang baru -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Header -->
     <header id="header">
         <div class="container nav-container">
             <a href="index.html" class="logo">Muhammad Fadlan<span>.</span></a>
@@ -23,7 +25,9 @@
                     <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </nav>
-            <div class="mobile-toggle" id="mobileMenuBtn"><i class="fas fa-bars"></i></div>
+            <div class="mobile-toggle" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
 
@@ -39,45 +43,46 @@
         <!-- Project Content -->
         <section class="project-detail-content">
             <div class="container detail-grid">
-                <!-- Main Content (Left) -->
+                
+                <!-- Main Content (Left Column) -->
                 <div class="detail-description">
                     <h2>Deskripsi Proyek</h2>
                     <div id="p-description">
-                        <!-- Dinamis -->
+                        <!-- Konten diisi oleh JavaScript -->
                     </div>
 
                     <h3 style="margin-top: 40px; margin-bottom: 20px; font-size: 1.5rem;">Fitur Utama</h3>
                     <ul id="p-features" class="feature-list">
-                        <!-- Dinamis -->
+                        <!-- Fitur diisi oleh JavaScript -->
                     </ul>
 
                     <img id="p-image" src="" alt="Project Preview" class="project-img-large">
                 </div>
 
-                <!-- Sidebar (Right) -->
+                <!-- Sidebar (Right Column) -->
                 <aside>
-                    <!-- Bagian Sidebar di project-detail.html -->
                     <div class="tech-stack-sidebar">
                         <h4>Teknologi</h4>
                         <div id="p-tech" class="tech-items">
-                            <!-- Dinamis -->
+                            <!-- Tech stack diisi oleh JavaScript -->
                         </div>
-                        
-                        <!-- UPDATE BAGIAN INI -->
+
+                        <!-- Tombol Aksi (Diperbaiki) -->
                         <div class="project-actions">
-                            <!-- Tombol Kembali (Secondary) -->
+                            <!-- Tombol Secondary (Kembali) -->
                             <a href="index.html#portfolio" class="btn btn-secondary">
                                 <i class="fas fa-arrow-left" style="margin-right: 8px;"></i> Kembali ke Portfolio
                             </a>
                             
-                            <!-- Tombol Kontak (Primary) -->
+                            <!-- Tombol Primary (Kontak) -->
                             <a href="index.html#contact" class="btn btn-primary">
                                 Hubungi Saya
                             </a>
                         </div>
-                        <!-- END UPDATE -->
+                        <!-- End Tombol Aksi -->
                     </div>
                 </aside>
+
             </div>
         </section>
     </main>
@@ -88,6 +93,7 @@
         </div>
     </footer>
 
+    <!-- Script untuk logika detail proyek -->
     <script src="project-script.js"></script>
 </body>
-</html>
+    </html>
